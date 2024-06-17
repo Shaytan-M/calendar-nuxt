@@ -3,15 +3,6 @@ definePageMeta({
     layout: 'sideblock',
     requiresAuth: true,
 });
-
-useHead({
-    meta: [
-        {
-            name: 'robots',
-            content: 'noindex',
-        },
-    ],
-});
 </script>
 
 <template>
